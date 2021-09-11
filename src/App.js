@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Counter from './components/Counter';
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
               value={value}
               onChange={event => setValue(event.target.value)}
       />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
     </div>
   );
 }
